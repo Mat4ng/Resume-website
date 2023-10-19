@@ -45,7 +45,7 @@ h1 {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 800;
     margin: 10px auto;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
@@ -55,28 +55,24 @@ h1 {
 
 .container .section h2 {
     font-size: 30;
+    margin-bottom: 5;
+    color: #0050B5;
 }
 
-.container .section ul a {
-    font-size: 16;
+.container .section a strong {
+    font-size: 20;
+}
+
+.container .section a {
+    font-size: 17;
 }
 
 .section {
-    margin: 20px 0;
+    margin: 10px 0;
     text-align: center;
 }
 
-h2 {
-    font-size: 30px;
-    text-align: center;
-}
-
-ul {
-    list-style: none;
-    text-align: center;
-}
-
-ul a img {
+.container .section a img {
     vertical-align: middle;
     margin-left: 5px;
 }
